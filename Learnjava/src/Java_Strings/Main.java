@@ -31,11 +31,19 @@ public class Main {
 		String firstName1 = "John";
 		String lastName1 = "Doe";
 		System.out.println(firstName1 + " " + lastName1);
-
-
 		
 		
-
+		
+		//Strings - Special Characters The sequence \"  inserts a double quote in a string:
+		String txt3 = "We are the so-called \"Vikings\" from the north.";
+		
+		//The sequence \'  inserts a single quote in a string:
+		String txt4 = "It\'s alright.";
+		
+		//The sequence \\  inserts a single backslash in a string:
+		String txt5 = "The character \\ is called backslash.";
+		
+		
 	}
 
 }
