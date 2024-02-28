@@ -1,0 +1,21 @@
+ImageIcon img=new ImageIcon("livewirelogo.png");
+		frame.setIconImage(img.getImage());
+//		Image icon = Toolkit.getDefaultToolkit().getImage("livewirelogo.png");
+path:C:\Users\CADD CENTRE\Desktop
+
+Methods of JButton Class
+Below are the commonly used methods in JButton Class:
+
+Void setText(string text): This method is basically used to set specified text on the button in the component.
+String getText( ): This method is used to return the text of the button in the specified component.
+Void setEnabled(boolean b): This method is used to enable or disable a button by passing the appropriate value in the parameter.
+Void setIcon(icon i): This method is used to set the specified icon “I” to the button.
+Icon getIcon( ): This method is used to return the icon of the specified button.
+Void setHorizontalTextPosition(int hpos): This method is used to set the horizontal position of the button message with respect to its icon.
+Void stVerticalTextPosition(int vpos): This method is used to set the vertical position of the button message with respect to its icon.
+
+
+ // Add the text area to a JScrollPane for scrolling (optional)
+        JScrollPane scrollPane = new JScrollPane(textArea);
+          // Add the scroll pane to the frame
+        frame.add(scrollPane);
